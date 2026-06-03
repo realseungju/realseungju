@@ -19,6 +19,8 @@ Virtual dental image generation using deep learning — data preprocessing, mode
 
 ### 🎨 SketchSense — Children's Drawing Emotion Analysis *(In Progress)*
 
+> Advised by **Sun-Young Ihm** · **Soo-Yeon Jeong**
+
 `VLM` `Qwen2-VL-7B` `InternVL2-8B` `Llama-3.1-8B` `OpenCV` `KIDO Dataset`
 
 Emotion classification pipeline for children's hand-drawn images using open-source VLMs — generating natural language descriptions as intermediate representations, combined with OpenCV-based feature extraction (line weight, roughness, pressure, spatial density). Compared against CNN-based black-box baselines.
@@ -54,7 +56,7 @@ Comparative Analysis of Underwater Image Generation Using Pix2Pix
 
 | Year | Description |
 |------|-------------|
-| 2026 | 🥉 Participation Award — 지능화혁신 아이디어 경진대회 · 배재대학교 스마트ICT 융합인재양성센터 |
-| 2021 | 🥉 AI Software Competition — Participation Award · Pai Chai University |
-| 2021 | 📜 AI & Software Idea Hackathon — Certificate of Completion · Pai Chai University |
-| 2021 | 🥈 Mentor–Mentee Education Program — Excellence Award (Mentee) · Pai Chai University |
+| 2026 | 🥉 지능화혁신 아이디어 경진대회 — Participation Award · Pai Chai University |
+| 2021 | 🥉 AI 소프트웨어 경진대회 — Participation Award · Pai Chai University |
+| 2021 | 📜 AI & 소프트웨어 아이디어 해커톤 — Certificate of Completion · Pai Chai University |
+| 2021 | 🥈 멘토멘티 프로그램 — Excellence Award (Mentee) · Pai Chai University |
