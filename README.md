@@ -60,3 +60,18 @@ Comparative Analysis of Underwater Image Generation Using Pix2Pix
 | 2021 | 🥉 AI 소프트웨어 경진대회 — Participation Award · Pai Chai University |
 | 2021 | 📜 AI & 소프트웨어 아이디어 해커톤 — Certificate of Completion · Pai Chai University |
 | 2021 | 🥈 멘토멘티 프로그램 — Excellence Award (Mentee) · Pai Chai University |
+
+<details>
+<summary>📜 Certifications</summary>
+
+| Name | Date |
+|------|------|
+| **SQLD (SQL Developer)** | 2023-07-07 |
+| ITQ 한글엑셀 | 2014-03-13 |
+| ITQ 인터넷 | 2014-09-11 |
+| GTQ 그래픽기술자격 2급 | 2013-09-13 |
+| ITQ 아래한글 | 2013-03-14 |
+| ITQ 한글파워포인트 | 2012-09-13 |
+
+</details>
+
