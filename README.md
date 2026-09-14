@@ -1,77 +1,85 @@
 # SEUNG-JU NA
 
-**Pai Chai University · Computer Engineering 2021~2027**  
-Interested in Deep Learning / Image Generation / Data Engineering / Data analysis
+**Data / ML Engineering · Vision-Language Systems · Evaluation Pipelines**
 
----
+I build data and evaluation pipelines for vision and language systems. I am
+especially interested in turning messy source data into reproducible evidence:
+defining what a model can claim, testing where it fails, and keeping those
+boundaries visible in the result.
 
-## 🔬 Research
+## Selected projects
 
-### 🦷 Virtual Dental Image Generation
+### [Reading Assistant](https://github.com/realseungju/reading-assistant)
 
-> Advised by **Sun-Young Ihm** · **Soo-Yeon Jeong**
+`Python` `Flask` `Raspberry Pi 5` `Google Vision OCR` `Gemini`
 
-`GAN` `WGAN` `LSGAN` `Pix2Pix` `CycleGAN` `FID / SSIM / PSNR`
+A reading companion that photographs a page of a physical book and turns it
+into a summary, translation, quiz, and spoken audio. I led the five-person
+industry-linked capstone team and owned system integration and the OCR path.
 
-Virtual dental image generation using deep learning — data preprocessing, model training, and metric-based evaluation (FID, SSIM, PSNR).
+### [ChessLens](https://github.com/realseungju/Image2PGN)
 
-<br>
+`PyTorch` `OpenCV` `FEN` `Stockfish`
 
-### 🎨 SketchSense — Children's Drawing Emotion Analysis *(In Progress)*
+Reads a chessboard image into FEN for engine analysis: board detection, corner
+correction, per-square CNN classification, and board reconstruction. The
+project began as single-image PGN recovery, but I redefined the target after
+establishing that one frame contains no move history. Real-photo generalization
+is still under validation.
 
-> Advised by **Sun-Young Ihm** · **Soo-Yeon Jeong**
+### [shared-brain-lite](https://github.com/realseungju/shared-brain-lite)
 
-`VLM` `Qwen2-VL-7B` `InternVL2-8B` `Llama-3.1-8B` `OpenCV` `KIDO Dataset`
+`Python` `Git` `CI`
 
-Emotion classification pipeline for children's hand-drawn images using open-source VLMs — generating natural language descriptions as intermediate representations, combined with OpenCV-based feature extraction (line weight, roughness, pressure, spatial density). Compared against CNN-based black-box baselines.
+A Git-native memory and work contract for AI coding agents. It combines tiered
+reading rules, task and session generators, and a lint gate that catches record
+and privacy-boundary violations. The public edition passes 21 automated checks.
 
----
+## Research
 
-## 📄 Publications & Presentations
+### SketchSense — emotion information in children's drawing descriptions
 
-### 📰 Journal Paper
+`VLM` `Qwen2-VL` `InternVL3` `Llama` `OpenCV`
 
-**A Study on Deep Learning Model for Virtual Tooth Image Generation**  
-데이타베이스연구 · v.38 no.3 · 2022 · pp.73–82  
-Soo-Yeon Jeong · Eun-Jung Bae · Hyun-Su Jang · **Seung-Ju Na** · Sun-Young Ihm  
-🔗 [ScienceON](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=ART002916725) · [KCI](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002916725)
+Built 10,860 natural-language descriptions of children's drawings and tested
+whether those descriptions preserve information useful for emotion analysis.
 
----
+- A description-based reader reached **Macro-F1 0.720 ± 0.012**, compared with
+  **0.636 ± 0.010** for an eight-feature color baseline
+  *(n=2,172; dev/eval 1,086 each; 20 repeated splits)*.
+- Fine-grained caption errors were barely detected by CLIP and Prometheus
+  *(relative sensitivity 0.00–0.09)*. A VQA-based probe recovered sensitivity
+  to **0.16–0.51**.
+- The classifier is a representation check. It does not establish clinical
+  validity or directly evaluate emotion in generated drawings.
 
-### 🎤 Conference
+### [Virtual dental image generation](https://github.com/realseungju/Generating-a-Teeth-Image-with-Pix2pix)
 
-**ICAEIC-2023** · Jul 2023 · Jeju Island · Poster  
-Comparative Analysis of Virtual Tooth Image Generation Using Pix2Pix  
-🔗 [ictaes.org · Gallery](https://ictaes.org/gallery/?vid=65)
+`Pix2Pix` `GAN` `U-Net` `PatchGAN` `PSNR` `SSIM` `FID`
 
-<br>
+Prepared a 2D training set from 200 paired upper/lower intraoral scans, trained
+the virtual-image generation component, and evaluated generated output against
+the source images. My contribution covered data preparation, generation, and
+verification; CR-Fill inpainting was a downstream stage outside my part.
 
-**KDBC 2023** · Nov 2023 · Busan · Oral Presentation  
-Comparative Analysis of Underwater Image Generation Using Pix2Pix  
-🔗 [dbsociety.kr · KDBC 2023](https://www.dbsociety.kr/kdbc/kdbc2023/)
+## Publications and presentations
 
----
+- **First author, poster** — *A Study on Image Matching of Original and
+  Generated Images*, ICAEIC-2023, Jeju, July 2023.
+  [Conference gallery](https://ictaes.org/gallery/?vid=65)
+- **First author, oral presentation** — *Comparative Analysis of Underwater
+  Image Generation Using Pix2Pix*, KDBC 2023, Busan, November 2023.
+  [Conference program](https://www.dbsociety.kr/kdbc/kdbc2023/)
+- **Contributing author (4th of 5)** — *A Study on Deep Learning Model for
+  Virtual Tooth Image Generation*, Database Research 38(3), 73–82, 2022.
+  I contributed the image-generation component and its verification.
+  [KCI record](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002916725)
 
-## 🏆 Awards & Activities
+## Awards and certifications
 
-| Year | Description |
-|------|-------------|
-| 2026 | 🥉 지능화혁신 아이디어 경진대회 — Participation Award · Pai Chai University |
-| 2021 | 🥉 AI 소프트웨어 경진대회 — Participation Award · Pai Chai University |
-| 2021 | 📜 AI & 소프트웨어 아이디어 해커톤 — Certificate of Completion · Pai Chai University |
-| 2021 | 🥈 멘토멘티 프로그램 — Excellence Award (Mentee) · Pai Chai University |
-
-<details>
-<summary>📜 Certifications</summary>
-
-| Name | Date |
-|------|------|
-| **SQLD (SQL Developer)** | 2023-07-07 |
-| ITQ 한글엑셀 | 2014-03-13 |
-| ITQ 인터넷 | 2014-09-11 |
-| GTQ 그래픽기술자격 2급 | 2013-09-13 |
-| ITQ 아래한글 | 2013-03-14 |
-| ITQ 한글파워포인트 | 2012-09-13 |
-
-</details>
-
+- **Encouragement Award**, Intelligent Innovation Idea Competition, 2026 —
+  *어르신의 말 한마디*
+- **Excellence Award**, Mentor–Mentee Program, 2021
+- **Encouragement Award**, AI Software Competition, 2021
+- **SQLD (SQL Developer)**
+- ITQ Excel, Internet, Hangeul, and PowerPoint · GTQ Graphic Technology Level 2
