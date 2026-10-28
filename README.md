@@ -108,7 +108,6 @@ experiments to writing and presentation.*
 
 - **Encouragement Award**, Intelligent Innovation Idea Competition, 2026 —
   *어르신의 말 한마디*
-- **Excellence Award (mentee)**, 1:1 SW English Conversation Program, 2023
 - **Encouragement Award**, AI Software Competition, 2021
 - **SQLD (SQL Developer)**
 - ITQ Excel, Internet, Hangeul, and PowerPoint · GTQ Graphic Technology Level 2
