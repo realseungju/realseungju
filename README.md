@@ -65,30 +65,40 @@ research evaluations, not clinical validation or a diagnostic system.
 
 `Pix2Pix` `GAN` `U-Net` `PatchGAN` `PSNR` `SSIM` `FID`
 
-Prepared a 2D training set from 200 paired upper/lower intraoral scans, trained
-the virtual-image generation component, and evaluated generated output against
-the source images. My contribution covered data preparation, generation, and
-verification; CR-Fill inpainting was a downstream stage outside my part.
+Prepared a 2D training set from 200 paired upper/lower intraoral scans and
+trained the Pix2Pix generation stage. When a labmate's CR-Fill model used my
+generated images as extra training data, I designed and ran the evaluation:
+PSNR, SSIM, and FID against the originals across training mixes and epochs,
+to test whether synthetic images improve tooth reconstruction.
 
 ## Publications and presentations
 
 ### Upcoming presentations — 2026
 
-- **Poster presentation planned** — [ACK 2026 (Annual Conference of KIPS)](https://ack.kips.or.kr/),
+- **First author, poster (planned) · Bronze Award** — *이미지 설명문 자동 평가 지표의
+  속성 변형 민감도 비교* (sensitivity of automatic image-caption metrics to attribute
+  edits), [ACK 2026 (Annual Conference of KIPS)](https://ack.kips.or.kr/),
   Sejong University, November 5, 2026.
-- **Presentation planned** — [2026 IEEE International Conference on Big Data](https://bigdataieee.org/BigData2026/),
-  Phoenix, Arizona, USA. Conference dates: December 14–17, 2026.
+- **Second author, short paper (accepted)** — *Attribute-Matched Readouts for Detecting
+  Single-Word Errors in Sketch Descriptions*, [2026 IEEE International Conference on Big Data](https://bigdataieee.org/BigData2026/),
+  Phoenix, Arizona, USA, December 14–17, 2026.
 
-*Status as of October 28, 2026. Paper titles and author details are not listed yet.*
+*Status as of October 28, 2026.*
 
 ### Previous publications and presentations
 
 - **First author, poster** — *A Study on Image Matching of Original and
-  Generated Images*, ICAEIC-2023, Jeju, July 2023.
+  Generated Images*, ICAEIC-2023, Jeju, July 2023. Verified generated images
+  against their originals with KAZE feature matching.
   [Conference gallery](https://ictaes.org/gallery/?vid=65)
 - **First author, oral presentation** — *Comparative Analysis of Underwater
-  Image Generation Using Pix2Pix*, KDBC 2023, Busan, November 2023.
+  Image Generation Using Pix2Pix*, KDBC 2023, Busan, November 2023. Trained
+  Pix2Pix with GAN and LSGAN objectives on underwater images and compared them
+  with FID.
   [Conference program](https://www.dbsociety.kr/kdbc/kdbc2023/)
+
+*I carried out both undergraduate papers myself, from research and experiments
+to writing and presentation.*
 - **Contributing author (4th of 5)** — *A Study on Deep Learning Model for
   Virtual Tooth Image Generation*, Database Research 38(3), 73–82, 2022.
   I contributed the image-generation component and its verification.
@@ -96,6 +106,8 @@ verification; CR-Fill inpainting was a downstream stage outside my part.
 
 ## Awards and certifications
 
+- **Bronze Award (Outstanding Paper Award)**, ACK 2026, Korea Information Processing
+  Society, 2026 — first-author paper above
 - **Encouragement Award**, Intelligent Innovation Idea Competition, 2026 —
   *어르신의 말 한마디*
 - **Excellence Award**, Mentor–Mentee Program, 2021
