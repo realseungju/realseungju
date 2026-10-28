@@ -96,13 +96,13 @@ to test whether synthetic images improve tooth reconstruction.
   Pix2Pix with GAN and LSGAN objectives on underwater images and compared them
   with FID.
   [Conference program](https://www.dbsociety.kr/kdbc/kdbc2023/)
-
-*I carried out both undergraduate papers myself, from research and experiments
-to writing and presentation.*
 - **Contributing author (4th of 5)** — *A Study on Deep Learning Model for
   Virtual Tooth Image Generation*, Database Research 38(3), 73–82, 2022.
   I contributed the image-generation component and its verification.
   [KCI record](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002916725)
+
+*I carried out the ICAEIC 2023 and KDBC 2023 papers myself, from research and
+experiments to writing and presentation.*
 
 ## Awards and certifications
 
