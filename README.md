@@ -75,7 +75,7 @@ to test whether synthetic images improve tooth reconstruction.
 
 ### Upcoming presentations — 2026
 
-- **First author, poster (planned) · Bronze Award** — *이미지 설명문 자동 평가 지표의
+- **First author, poster (planned)** — *이미지 설명문 자동 평가 지표의
   속성 변형 민감도 비교* (sensitivity of automatic image-caption metrics to attribute
   edits), [ACK 2026 (Annual Conference of KIPS)](https://ack.kips.or.kr/),
   Sejong University, November 5, 2026.
@@ -106,8 +106,6 @@ experiments to writing and presentation.*
 
 ## Awards and certifications
 
-- **Bronze Award (Outstanding Paper Award)**, ACK 2026, Korea Information Processing
-  Society, 2026 — first-author paper above
 - **Encouragement Award**, Intelligent Innovation Idea Competition, 2026 —
   *어르신의 말 한마디*
 - **Excellence Award**, Mentor–Mentee Program, 2021
