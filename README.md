@@ -21,11 +21,14 @@ industry-linked capstone team and owned system integration and the OCR path.
 
 `PyTorch` `OpenCV` `FEN` `Stockfish`
 
-Reads a chessboard image into FEN for engine analysis: board detection, corner
-correction, per-square CNN classification, and board reconstruction. The
-project began as single-image PGN recovery, but I redefined the target after
-establishing that one frame contains no move history. Real-photo generalization
-is still under validation.
+A local web app for turning a chess screenshot into a reviewed position and
+exploring it with Stockfish. The pipeline covers board detection, perspective
+correction, per-square CNN classification, and FEN reconstruction. Users can
+correct the board, replay engine variations, and compare recorded historical
+moves with engine recommendations.
+
+A single image cannot recover a game's move history. Real-photo generalization
+remains under validation. [Visual walkthrough](https://whichai.fyi/chesslens#image-flow)
 
 ### [shared-brain-lite](https://github.com/realseungju/shared-brain-lite)
 
@@ -33,7 +36,16 @@ is still under validation.
 
 A Git-native memory and work contract for AI coding agents. It combines tiered
 reading rules, task and session generators, and a lint gate that catches record
-and privacy-boundary violations. The public edition passes 21 automated checks.
+and privacy-boundary violations. Public synthetic examples demonstrate how
+records are written and reused. [Interactive guide](https://whichai.fyi/shared-brain)
+
+### [whichai.fyi](https://whichai.fyi/)
+
+`HTML` `CSS` `JavaScript` `Cloudflare Pages`
+
+A personal AI engineering site with project notes and visual walkthroughs.
+ChessLens demonstrates image recognition and recorded-move replay; Shared Brain
+shows how work survives a new session and lets visitors inspect example files.
 
 ## Research
 
@@ -41,17 +53,13 @@ and privacy-boundary violations. The public edition passes 21 automated checks.
 
 `VLM` `Qwen2-VL` `InternVL3` `Llama` `OpenCV`
 
-Built 10,860 natural-language descriptions of children's drawings and tested
-whether those descriptions preserve information useful for emotion analysis.
+Built data and evaluation pipelines for VLM-generated descriptions of
+children's drawings. The work uses controlled caption edits, similarity and
+VQA-based scoring, visual judges, and human annotations to examine which
+details are preserved and where automated evaluation misses errors.
 
-- A description-based reader reached **Macro-F1 0.720 ± 0.012**, compared with
-  **0.636 ± 0.010** for an eight-feature color baseline
-  *(n=2,172; dev/eval 1,086 each; 20 repeated splits)*.
-- Fine-grained caption errors were barely detected by CLIP and Prometheus
-  *(relative sensitivity 0.00–0.09)*. A VQA-based probe recovered sensitivity
-  to **0.16–0.51**.
-- The classifier is a representation check. It does not establish clinical
-  validity or directly evaluate emotion in generated drawings.
+Current work focuses on description fidelity and object grounding. These are
+research evaluations, not clinical validation or a diagnostic system.
 
 ### [Virtual dental image generation](https://github.com/realseungju/Generating-a-Teeth-Image-with-Pix2pix)
 
@@ -63,6 +71,17 @@ the source images. My contribution covered data preparation, generation, and
 verification; CR-Fill inpainting was a downstream stage outside my part.
 
 ## Publications and presentations
+
+### Upcoming presentations — 2026
+
+- **Poster presentation planned** — [ACK 2026 (Annual Conference of KIPS)](https://ack.kips.or.kr/),
+  Sejong University, November 5, 2026.
+- **Presentation planned** — [2026 IEEE International Conference on Big Data](https://bigdataieee.org/BigData2026/),
+  Phoenix, Arizona, USA. Conference dates: December 14–17, 2026.
+
+*Status as of October 28, 2026. Paper titles and author details are not listed yet.*
+
+### Previous publications and presentations
 
 - **First author, poster** — *A Study on Image Matching of Original and
   Generated Images*, ICAEIC-2023, Jeju, July 2023.
