@@ -1,6 +1,6 @@
 # SEUNG-JU NA
 
-**Data / ML Engineering · Vision-Language Systems · Evaluation Pipelines**
+**Into AI Engineering · LLM/VLM Applications & Evaluation · Data Engineering & Analysis**
 
 I build data and evaluation pipelines for vision and language systems. I am
 especially interested in turning messy source data into reproducible evidence:
