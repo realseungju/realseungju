@@ -1,4 +1,6 @@
-# SEUNG-JU NA
+# 나승주 · Seungju Na · realseungju
+
+[GitHub](https://github.com/realseungju) · [LinkedIn](https://www.linkedin.com/in/realseungju/)
 
 **Into AI Engineering · LLM/VLM Applications & Evaluation · Data Engineering & Analysis**
 
