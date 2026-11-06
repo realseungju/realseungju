@@ -75,18 +75,18 @@ to test whether synthetic images improve tooth reconstruction.
 
 ### Upcoming presentations — 2026
 
-- **First author, poster (planned)** — *이미지 설명문 자동 평가 지표의
-  속성 변형 민감도 비교* (sensitivity of automatic image-caption metrics to attribute
-  edits), [ACK 2026 (Annual Conference of KIPS)](https://ack.kips.or.kr/),
-  Sejong University, November 5, 2026.
 - **Second author, short paper (accepted)** — *Attribute-Matched Readouts for Detecting
   Single-Word Errors in Sketch Descriptions*, [2026 IEEE International Conference on Big Data](https://bigdataieee.org/BigData2026/),
   Phoenix, Arizona, USA, December 14–17, 2026.
 
-*Status as of October 28, 2026.*
+*Status as of November 6, 2026.*
 
 ### Previous publications and presentations
 
+- **First author, poster — Bronze Award (Outstanding Paper Award)** — *이미지 설명문
+  자동 평가 지표의 속성 변형 민감도 비교* (sensitivity of automatic image-caption
+  metrics to attribute edits), [ACK 2026 (Annual Conference of KIPS)](https://ack.kips.or.kr/),
+  Sejong University, November 6, 2026.
 - **First author, poster** — *A Study on Image Matching of Original and
   Generated Images*, ICAEIC-2023, Jeju, July 2023. Verified generated images
   against their originals with KAZE feature matching.
@@ -106,6 +106,8 @@ experiments to writing and presentation.*
 
 ## Awards and certifications
 
+- **Bronze Award (Outstanding Paper Award)**, ACK 2026, Korea Information
+  Processing Society, 2026 — first-authored paper above
 - **Encouragement Award**, Intelligent Innovation Idea Competition, 2026 —
   *어르신의 말 한마디*
 - **Encouragement Award**, AI Software Competition, 2021
