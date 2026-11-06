@@ -1,4 +1,4 @@
-# 나승주 · Seungju Na · realseungju
+# SEUNG-JU NA
 
 [GitHub](https://github.com/realseungju) · [LinkedIn](https://www.linkedin.com/in/realseungju/)
 
